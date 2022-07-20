@@ -1,3 +1,3 @@
 FROM nginx
-EXPOSE 443
+EXPOSE 80
 COPY src/ /usr/share/nginx/html
